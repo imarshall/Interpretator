@@ -1,0 +1,6 @@
+polit [num]
+if num<0
+			num := abs[num]
+			flag := 1
+			print (num)
+		endif

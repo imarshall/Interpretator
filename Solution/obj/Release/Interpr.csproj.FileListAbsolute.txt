@@ -1,0 +1,11 @@
+C:\Users\marshall\Desktop\study\ТРПО\Interpr\Solution\bin\Release\WindowsApplication1.exe
+C:\Users\marshall\Desktop\study\ТРПО\Interpr\Solution\obj\Release\Interpr.csprojResolveAssemblyReference.cache
+C:\Users\marshall\Desktop\study\ТРПО\Interpr\Solution\obj\Release\interpr.ConsoleBox.resources
+C:\Users\marshall\Desktop\study\ТРПО\Interpr\Solution\obj\Release\interpr.EditorForm.resources
+C:\Users\marshall\Desktop\study\ТРПО\Interpr\Solution\obj\Release\interpr.Form1.resources
+C:\Users\marshall\Desktop\study\ТРПО\Interpr\Solution\obj\Release\interpr.FunctionsForm.resources
+C:\Users\marshall\Desktop\study\ТРПО\Interpr\Solution\obj\Release\interpr.InputForm.resources
+C:\Users\marshall\Desktop\study\ТРПО\Interpr\Solution\obj\Release\interpr.SourceBox.resources
+C:\Users\marshall\Desktop\study\ТРПО\Interpr\Solution\obj\Release\interpr.VariablesForm.resources
+C:\Users\marshall\Desktop\study\ТРПО\Interpr\Solution\obj\Release\Interpr.csproj.GenerateResource.Cache
+C:\Users\marshall\Desktop\study\ТРПО\Interpr\Solution\obj\Release\WindowsApplication1.exe

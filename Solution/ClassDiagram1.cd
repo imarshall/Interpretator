@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="interpr.ConsoleBox" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABCAACAIBAABAACAACACAAAAABAAAIEAACBEAAA=</HashCode>
+      <FileName>ConsoleBox.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="interpr.ConsoleBoxGetCommandEventArgs" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>ConsoleBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.EditorForm" Collapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAIAIACAAIBAAAAKAAACCAAAZMAAAAGFAgQAAAAA=</HashCode>
+      <FileName>EditorForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.Facade" Collapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIBAAAAABBAACAJQAgAAAAkQAIAAAEAIwAAQAAAAQAA=</HashCode>
+      <FileName>Facade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.Form1" Collapsed="true">
+    <Position X="23.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAKCAAACAMA4AAAAAHQMBSAAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.FunctionsForm" Collapsed="true">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAEAACAAIBUAAAKAACACAMA5AAIAAHAGAQAAAAA=</HashCode>
+      <FileName>FunctionsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.InputForm" Collapsed="true">
+    <Position X="20" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAEADEAAYAAAAEEAAAAAAAAA=</HashCode>
+      <FileName>InputForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.SourceBox" Collapsed="true">
+    <Position X="14.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAIBIACAAAAAAAACAIAACAIxAABECREgAAAAAPCA=</HashCode>
+      <FileName>SourceBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.VariablesForm" Collapsed="true">
+    <Position X="18.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAKAAAACAgA4AAAAAGAAAQAAAAA=</HashCode>
+      <FileName>VariablesForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.ArgList" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAABABAAAAAAAQAVAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logic\ArgList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.Call" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAABAAAAAAAgAAAAABAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>logic\Call.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="interpr.logic.ConsoleNamespace" Collapsed="true">
+    <Position X="3.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAQAAAAAAAACAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>logic\ConsoleNamespace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.CalcException" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logic\Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.SyntaxErrorException" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logic\Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.LineSyntaxException" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAgAAAAAAAAAAAIAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>logic\Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.OtherException" Collapsed="true">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logic\Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.Expression" Collapsed="true">
+    <Position X="20" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="interpr.logic.Expression.Element" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>logic\Expression.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="interpr.logic.Expression.BR_c" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>logic\Expression.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAIIAAAAEAAAAAAAASCAAQAIQAAAAAEAAgAA=</HashCode>
+      <FileName>logic\Expression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.InterprEnvironment" Collapsed="true">
+    <Position X="21.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAABAAQAiAgABAQAIAgIEoEwAAABAAAAAA=</HashCode>
+      <FileName>logic\InterprEnvironment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.LineCompiler" Collapsed="true">
+    <Position X="23.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAACAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>logic\LineCompiler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.LinkedList" Collapsed="true">
+    <Position X="14.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJIAJAAAAAAAQAAAAAAIAQAAAAQAAAAAAACAAQAgAI=</HashCode>
+      <FileName>logic\LinkedList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.LinkedListException" Collapsed="true">
+    <Position X="0.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logic\LinkedList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.NamespaceSerializationException" Collapsed="true">
+    <Position X="18.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logic\Namespace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.Namespace" Collapsed="true">
+    <Position X="3.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAABACAAABIAARRAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logic\Namespace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.Operation" Collapsed="true">
+    <Position X="8.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>HwIoyAAAACmlioAAMABAiEAoAAtJARcAAAAAFEDAAgI=</HashCode>
+      <FileName>logic\Operation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.Parser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAGCAgAAQBBAAAATABEAAQBAAAAAAIgAAAAAAAAA=</HashCode>
+      <FileName>logic\Parser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="interpr.logic.SubName" Collapsed="true">
+    <Position X="8.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logic\SubName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.Subroutine" Collapsed="true">
+    <Position X="16.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAACAAAgAAAAAAgAAAIAAAEAAAAAAAAAQAAAA=</HashCode>
+      <FileName>logic\Subroutine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.VarName" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logic\VarName.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="interpr.logic.operators.AssignCommand" Collapsed="true">
+    <Position X="10" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAQAAAEAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>logic\operators\AssignCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.operators.CallCommand" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logic\operators\CallCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.operators.ClearCommand" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logic\operators\ClearCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.operators.Command" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logic\operators\Command.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="interpr.logic.operators.ElseifOperator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAEAAQAQACAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>logic\operators\ElseifOperator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="interpr.logic.operators.ElseOperator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAQAQAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>logic\operators\ElseOperator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="interpr.logic.operators.EmptyCommand" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logic\operators\EmptyCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.operators.EndifOperator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logic\operators\EndifOperator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="interpr.logic.operators.ErrorOperator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logic\operators\ErrorOperator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="interpr.logic.operators.ForOperator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAQAYAAAAAAAQAgAAAAQMAAAAAAAAAA=</HashCode>
+      <FileName>logic\operators\ForOperator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="interpr.logic.operators.IfOperator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAEAAQAQAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>logic\operators\IfOperator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="interpr.logic.operators.LoopOperator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAk=</HashCode>
+      <FileName>logic\operators\LoopOperator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="interpr.logic.operators.NextOperator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAABAAAAAAAQEQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logic\operators\NextOperator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="interpr.logic.operators.PrintCommand" Collapsed="true">
+    <Position X="8" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logic\operators\PrintCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.operators.PrintLnCommand" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logic\operators\PrintLnCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.operators.ReturnOperator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logic\operators\ReturnOperator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="interpr.logic.operators.WhileOperator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAQAQAAAAAAAEAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>logic\operators\WhileOperator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="interpr.logic.vartypes.ArrayVar" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABACAAAAAAgACECAAAAAAABAAAAAACAAAABAAAABA=</HashCode>
+      <FileName>logic\vartypes\ArrayVar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.vartypes.IntVar" Collapsed="true">
+    <Position X="3" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABBAABAACAAAAEgAAAAAAAgAAAAgAAABAAAAACABA=</HashCode>
+      <FileName>logic\vartypes\IntVar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.vartypes.NumVar" Collapsed="true">
+    <Position X="4" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAABACAAAAAAAAAAEAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>logic\vartypes\NumVar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.vartypes.RealVar" Collapsed="true">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABBAABAACAAAAEgAAAAAAAgAAAAgAAABAAAAACABA=</HashCode>
+      <FileName>logic\vartypes\RealVar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.vartypes.SingleVar" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAgAAAAAAAAkACgcgCAADAAAgAABAIAAAACAAA=</HashCode>
+      <FileName>logic\vartypes\SingleVar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.vartypes.StringVar" Collapsed="true">
+    <Position X="7.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAACAAAAEgAAAEAAAgAAAAgAAAAAAAAACABA=</HashCode>
+      <FileName>logic\vartypes\StringVar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interpr.logic.vartypes.VarBase" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEABAAAAAABAAAAMAAAAEAAAAAgAAAAAAAAQAAEAABA=</HashCode>
+      <FileName>logic\vartypes\VarBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="interpr.logic.IComputable" Collapsed="true">
+    <Position X="14.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logic\IComputable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="interpr.logic.IConsole" Collapsed="true">
+    <Position X="16.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>logic\IConsole.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="interpr.logic.operators.IOperator" Collapsed="true">
+    <Position X="18.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logic\operators\IOperator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="interpr.logic.operators.OperatorKind" Collapsed="true">
+    <Position X="14.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgBAACBIAAAAAAAAAAAABAAAIAAAAAAAAgAAEAAAAAA=</HashCode>
+      <FileName>logic\operators\IOperator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="interpr.ConsoleBoxGetCommandEventHandler" Collapsed="true">
+    <Position X="14.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConsoleBox.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6AF0F0B0-9803-45A0-B483-9E49EE975422}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>CHIP.ICO</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>WindowsApplication1</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Interpr</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Configuration.Install">
+      <Name>System.Configuration.Install</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Management">
+      <Name>System.Management</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ConsoleBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facade.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FunctionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="logic\ArgList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\Call.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\ConsoleNamespace.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\Exceptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\Expression.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\IComputable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\IConsole.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\InterprEnvironment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\LineCompiler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\LinkedList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\Namespace.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\Operation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\operators\AssignCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\operators\CallCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\operators\ClearCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\operators\Command.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\operators\ElseifOperator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\operators\ElseOperator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\operators\EmptyCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\operators\EndifOperator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\operators\ErrorOperator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\operators\ForOperator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\operators\IfOperator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\operators\IOperator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\operators\LoopOperator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\operators\NextOperator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\operators\PrintCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\operators\PrintLnCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\operators\ReturnOperator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\operators\WhileOperator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\Parser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\SubName.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\Subroutine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\VarName.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\vartypes\ArrayVar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\vartypes\IntVar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\vartypes\NumVar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\vartypes\RealVar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\vartypes\SingleVar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\vartypes\StringVar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logic\vartypes\VarBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SourceBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VariablesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="ConsoleBox.resx">
+      <DependentUpon>ConsoleBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditorForm.resx">
+      <DependentUpon>EditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FunctionsForm.resx">
+      <DependentUpon>FunctionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputForm.resx">
+      <DependentUpon>InputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SourceBox.resx">
+      <DependentUpon>SourceBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VariablesForm.resx">
+      <DependentUpon>VariablesForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CHIP.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Установщик Windows 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
