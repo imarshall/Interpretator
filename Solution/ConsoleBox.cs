@@ -67,7 +67,7 @@ namespace interpr {
 		public event ConsoleBoxGetCommandEventHandler GetCommand;
 
 		private void AddText() {
-			rtb.Text = rtb.Text + s_str;
+			rtb.Text = rtb.Text + s_str + '\n';
 			if (m_waiting) {
 				lock (this) {
 					m_waiting = false;

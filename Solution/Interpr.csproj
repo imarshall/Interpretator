@@ -275,11 +275,29 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form1_button5_Click.sequencediagram.layout">
+      <DependentUpon>Form1_button5_Click.sequencediagram</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1_button5_Click_1.sequencediagram.layout">
+      <DependentUpon>Form1_button5_Click_1.sequencediagram</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1_consoleBox1_GetCommand.sequencediagram.layout">
+      <DependentUpon>Form1_consoleBox1_GetCommand.sequencediagram</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1_consoleBox1_GetCommand_1.sequencediagram.layout">
+      <DependentUpon>Form1_consoleBox1_GetCommand_1.sequencediagram</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1_consoleBox1_GetCommand_2.sequencediagram.layout">
+      <DependentUpon>Form1_consoleBox1_GetCommand_2.sequencediagram</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FunctionsForm.resx">
       <DependentUpon>FunctionsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InputForm.resx">
       <DependentUpon>InputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parser_IsUserID.sequencediagram.layout">
+      <DependentUpon>Parser_IsUserID.sequencediagram</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SourceBox.resx">
       <DependentUpon>SourceBox.cs</DependentUpon>
@@ -313,6 +331,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />
+    <None Include="Form1_button5_Click.sequencediagram" />
+    <None Include="Form1_button5_Click_1.sequencediagram" />
+    <None Include="Form1_consoleBox1_GetCommand.sequencediagram" />
+    <None Include="Form1_consoleBox1_GetCommand_1.sequencediagram" />
+    <None Include="Form1_consoleBox1_GetCommand_2.sequencediagram" />
+    <None Include="Parser_IsUserID.sequencediagram" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
